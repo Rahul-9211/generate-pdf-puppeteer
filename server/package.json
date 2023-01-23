@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "handlebars": "^4.7.7",
+    "html-pdf": "^3.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19",
+    "pdfmake": "^0.2.5",
+    "puppeteer": "^19.5.2"
+  }
+}
